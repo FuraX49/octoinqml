@@ -1,0 +1,4 @@
+<svg width="128px" height="128px">
+<path  d="m 36 60 h 80 a 13 13 0 0 1 10 10 l -10 46 a 13 13 0 0 1 -10 10 h -80 a 13 13 0 0 1 -10 -10 l 10 -46 a 13 13 0 0 1 10 -10 z" stroke="#000000" fill="#000000" stroke-width="6"/>
+<path  d="m 3 90 v -75 a 10 10 0 0 1 10 -10 h 25 l 15 15 h 40 a 10 10 0 0 1 10 10 v 5 h -75 a 12 17 0 0 0 -10 10 z " stroke="#000000" fill="#000000" stroke-width="6"/>
+</svg>

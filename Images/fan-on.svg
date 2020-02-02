@@ -1,0 +1,14 @@
+<svg width="128px" height="128px" >
+<defs>
+<g id="Pale"> 
+<path d=" M 72 58 Q 77.247 64.026 72 70 C 66.753 75.974 99.772 94.163 109 85 C 118.228 75.837 122.499 63.011 113 58 Q 103.501 52.989 72 58 Z "  fill="#000000"  />
+</g>
+</defs>  
+<circle cx="64" cy="64" r="8"/>
+<use xlink:href="#Pale"  />
+<use xlink:href="#Pale" transform="rotate(90,64,64)" />
+<use xlink:href="#Pale" transform="rotate(180,64,64)" />
+<use xlink:href="#Pale" transform="rotate(270,64,64)" />
+</svg>
+
+

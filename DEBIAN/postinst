@@ -1,0 +1,14 @@
+#!/bin/sh
+
+# errors shouldn't cause script to exit
+set +e
+
+
+INIT_SYSTEM=`cat /proc/1/comm`
+if test $INIT_SYSTEM = "systemd"
+then
+        systemctl daemon-reload
+        systemctl enable toggleinqml.service 2>/dev/null
+        systemctl start toggleinqml.service 2>/dev/null
+fi
+exit 0

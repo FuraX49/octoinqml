@@ -1,0 +1,12 @@
+<svg width="128" height="128"  >
+<path d="m 110 3 v 122 h -90 v -122 z "  stroke="#000000"  stroke-width="6" stroke-linecap="round" fill="none" stroke-linejoin="round"  />
+<circle cx="65" cy="48" r="38" fill="none" stroke="#000000" stroke-width="6"/>
+<circle cx="65" cy="48" r="6" fill="#000000" />
+<circle cx="30" cy="14" r="6" fill="#000000" />
+<circle cx="100" cy="14" r="6" fill="#000000" />
+<circle cx="100" cy="112" r="6" fill="#000000" />
+<circle cx="30" cy="112" r="6" fill="#000000" />
+<circle cx="40" cy="92" r="4" fill="#000000" />
+<path d="m 34 91 l 24 -40 l -14 45 a 2 2 17 0 1 -10 -5 M 40 92"  stroke="#000000"  stroke-width="4"  fill="none"  />
+</svg>
+

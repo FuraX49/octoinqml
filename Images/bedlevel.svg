@@ -1,0 +1,6 @@
+<svg width="128px" height="128px"  >
+<path  d="m 38 0 v 30 h 50 v -30" stroke="#000000" fill="none" stroke-width="6"   />
+<rect  x="24" y="30" width="80" height="30"  stroke="#000000" fill="none" stroke-width="6"   />
+<path  d="M 50 60 l 10 25 h 8 l 10 -25 z " stroke="#000000" fill="none" stroke-width="6"   />
+<line  x1="0" x2="128" y1="90" y2="120"  stroke="#000000" fill="none" stroke-width="16"   />
+</svg>

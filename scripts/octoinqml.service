@@ -1,0 +1,13 @@
+[Unit]
+Description=OctoPrint Client in QML/Umikaze Graphical user interface for OctoPrint
+After=octoprint.service  
+Requires=octoprint.service
+
+[Service]
+Type=simple
+ExecStartPre=/bin/systemctl stop getty@tty1.service
+ExecStart=/usr/local/bin/octoinqml
+ExecStopPost=/bin/systemctl start getty@tty1.service
+
+[Install]
+WantedBy=basic.target

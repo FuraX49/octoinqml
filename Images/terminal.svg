@@ -1,0 +1,7 @@
+<svg width="128px" height="128px"  >
+<rect  x="3" y ="3" width="122" height="122" ry="12" stroke="#000000" stroke-width="6" fill="none"  />
+<text transform="matrix(1,0,0,1,10,030)" style="font-size:24px;font-weight:700;fill:#000000;">M115</text>
+<text transform="matrix(1,0,0,1,10,060)" style="font-size:24px;font-weight:700;fill:#000000;">Firmware_Name :</text>
+<text transform="matrix(1,0,0,1,10,090)" style="font-size:24px;font-weight:700;fill:#000000;">REDEEM</text>
+<text transform="matrix(1,0,0,1,10,120)" style="font-size:24px;font-weight:700;fill:#000000;">OK</text>
+</svg>

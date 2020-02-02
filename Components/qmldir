@@ -1,0 +1,6 @@
+singleton ScreenParams 1.0 ScreenParams.qml
+FanControl 1.0 FanControl.qml
+Heater 1.0 Heater.qml
+RateControl 1.0 RateControl.qml
+StepBox 1.0 StepBox.qml
+SvgButton 1.0 SvgButton.qml

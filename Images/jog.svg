@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128px" height="128px"  >
+<defs>
+<g id="Arrow"> 
+<path  d="m39 54 l 50 0 l -25 20 l -25 -20 z " stroke="#000000" stroke-width="5" fill="#000000" />
+</g>
+</defs>  
+<circle cx="64" cy="64" r="25" fill="#000000" />
+<use xlink:href="#Arrow" y="50"  />
+<use xlink:href="#Arrow" x="-60" y="29" transform="rotate(180,34,54)"  />
+<use xlink:href="#Arrow" x="-20" y="10" transform="rotate(90,34,54)"  />
+<use xlink:href="#Arrow" x="-40" y="70" transform="rotate(270,34,54)"  />
+</svg>

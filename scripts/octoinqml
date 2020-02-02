@@ -1,0 +1,37 @@
+#!/bin/bash
+#/usr/local/bin/octoinqml
+
+export XDG_RUNTIME_DIR=/tmp/xdg-rtd-${USER}
+if  [ ! -d ${XDG_RUNTIME_DIR} ]  ; then
+	mkdir -p ${XDG_RUNTIME_DIR}
+fi
+
+# ******** QPA Variables *******************
+export QT_QPA_EGLFS_HIDECURSOR=1
+export QT_QPA_FONTDIR=/usr/share/fonts/truetype/dejavu
+export QT_QPA_PLATFORM=eglfs
+export QT_QPA_EGLFS_INTEGRATION=none
+
+# *********** SCREEN 5"  *****************
+#export QT_QPA_EGLFS_PHYSICAL_WIDTH=108
+#export QT_QPA_EGLFS_PHYSICAL_HEIGHT=64
+
+# *********** SCREEN 7"  *****************
+export QT_QPA_EGLFS_PHYSICAL_WIDTH=154
+export QT_QPA_EGLFS_PHYSICAL_HEIGHT=85
+
+
+# for theme configuration
+export QT_QUICK_CONTROLS_CONF="/etc/octoinqml/qtquickcontrols2.conf"
+
+# use for virtual Keyboard
+export QT_IM_MODULE="qtvirtualkeyboard"
+
+
+# the config file is /etc/octoinqml/QtProject/QtQmlViewer.conf
+export XDG_CONFIG_HOME="/etc/octoinqml"
+
+
+cd /opt/octoinqml
+qmlscene --fullscreen --gles OctoInQML.qml
+

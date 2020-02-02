@@ -1,0 +1,5 @@
+<svg width="128px" height="128px"  >
+<rect  x="24" y="3" width="80" height="30"  stroke="#000000" fill="none" stroke-width="6"   />
+<path  d="M 50 33 l 10 25 h 8 l 10 -25 z " stroke="#000000" fill="none" stroke-width="6"   />
+<path  d="M 64 64 v 10 a 10 10 0 0 0 10 10 h 45 a 5 5 0 0 1 0 10 h -110 a 5 5 0 0 0 0 10 h 110 a 5 5 0 0 1 0 10 h -110 a 5 5 0 0 0 0 10 h 70 " stroke="#000000" fill="none" stroke-width="6"   />
+</svg>

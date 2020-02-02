@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128px" height="128px" >
+<path d="m 4 4 v 120 h 120 " stroke="#000000" stroke-width="8" fill="none" />
+<path d="m 8 120 l 34 -60 l 40 40 l 40 -80" stroke="#000000" stroke-width="6" fill="none" />
+</svg>
